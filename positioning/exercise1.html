@@ -1,0 +1,43 @@
+
+<html>
+<head>
+    <title>Exercise #1: Hiding from a list</title>
+   <style>
+       li{
+    display: inline-block;
+    padding:left;
+    border: 1px solid black;
+    background: blue;
+    width: 3em;
+    text-align: center;
+    color: white;
+    
+}
+ul{
+    padding-left: 0;
+    
+}
+li:nth-of-type(odd){
+    visibility: hidden;
+    display: none;
+}
+#two{
+    opacity: 0;
+}
+   </style>
+</head>
+<body>
+	<ul>
+        <li id="one">1</li>
+        <li id="two">2</li>
+        <li id="three">3</li>
+        <li id="four">4</li>
+        <li id="five">5</li>
+        <li id="six">6</li>
+        <li id="seven">7</li>
+        <li id="eight">8</li>
+        <li id="nine">9</li>
+        <li id="ten">10</li>
+    </ul>
+</body>
+</html>
