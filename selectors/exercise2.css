@@ -1,0 +1,35 @@
+body{
+    background-color: #f0f8ff;
+    
+   
+}
+div{
+    width: 75%;
+    min-width: 500px;
+    border: 1px solid #333333;
+    border-collapse: separate;
+    margin-top: 1em;
+    padding: 0.5em;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:2px 2px black;
+
+}
+#a{
+    font: bold;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    background-color: #fdca96;
+}
+#b{
+    font: bold;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    background-color: #fdfd96;
+}
+#alert{
+    border-style: dashed; 
+    color: red;
+    border-color: red;
+    box-shadow:2px 2px red
+}

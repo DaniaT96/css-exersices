@@ -1,1 +1,23 @@
 /* this is for you to complete */
+ul:nth-of-type(1) ul:nth-of-type(1):first-child {
+    color: blue;
+}
+
+li ul > li>ul{
+    list-style-type: none;
+}
+li ul>li:first-child{
+    font-weight: bold;
+}
+ul a:link{
+    color: red;
+}
+
+    a:link{
+        color: green;
+    }
+   body >div:nth-of-type(2)>p a:link{
+        background: yellow;
+
+    }
+ 
